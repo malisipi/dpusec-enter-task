@@ -13,7 +13,7 @@ const int buyuk_varyant_maks = 'Z'-'A';
 
 void sesli_sessiz_harf_say(const char* yazi, uint16_t* sesli_sayisi, uint16_t* sessiz_sayisi){
     char tampon[1024]; // 1023 + (NUL)
-    sprintf(tampon, "%1023s", yazi);
+    sprintf(tampon, "%.1023s", yazi);
     unsigned char karakter = 0;
     // Sıfırla
     *sesli_sayisi = 0;
