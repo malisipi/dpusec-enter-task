@@ -11,7 +11,7 @@
 void kullanicidan_sayi_al(const char* istek, double* sayi){
     printf("%s: ", istek);
     char tampon[11]; // 10 + (NUL)
-    scanf("%10s", tampon);
+    fgets(tampon, 11, stdin);
     char karakter = 0;
     int ondalik_kisim = -1;
     for(int indeks=0; (karakter = tampon[indeks])!='\0'; indeks++){ // Tamponun sonuna kadar
@@ -24,8 +24,10 @@ void kullanicidan_sayi_al(const char* istek, double* sayi){
             ondalik_kisim = 0;
         } else if(karakter == '_' || karakter == ' '){ // Sayıyı/Basamakları ayırmak için kullanılmış olabilir
             continue;
+        } else if(karakter == '\n') { // Yeni satır karakterini atla
+            continue;
         } else {
-            printf("%s", "Geçersiz giriş");
+            printf("%s (%d)", "Geçersiz giriş, tanınmayan karakter:", karakter);
             exit(1);
         };
     };
