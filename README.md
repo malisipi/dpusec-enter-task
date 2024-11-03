@@ -8,4 +8,5 @@
 Tüm projeler hem C hem de Python varyantını içeriyor.
 
 - Hedeflenen C standardı: C23
+- Hedeflenen C derleyicisi: GCC
 - Hedeflenen Python sürümü: 3.12.7
