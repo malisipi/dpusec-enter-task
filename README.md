@@ -1,4 +1,4 @@
-# DPUSEC Giriş İçin Tasklar
+# DPUSEC Giriş İçin Görevler
 
 1. [Giriş Ortalaması](./giris_ortalamasi/)
 2. [Sesli Sessiz Harf Sayar](./sesli_sessiz_harf_sayar/)
