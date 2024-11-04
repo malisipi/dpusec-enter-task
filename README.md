@@ -1,9 +1,15 @@
 # DPUSEC Giriş İçin Görevler
 
-1. [Giriş Ortalaması](./giris_ortalamasi/)
-2. [Sesli Sessiz Harf Sayar](./sesli_sessiz_harf_sayar/)
-3. [URL Ayrıştırıcı](./url_ayristirici/)
-4. [IP Adresi Kontrolcüsü](./ip_adresi_kontrolcusu/)
+1. Kısım
+    1. [Giriş Ortalaması](./giris_ortalamasi/)
+    2. [Sesli Sessiz Harf Sayar](./sesli_sessiz_harf_sayar/)
+    3. [URL Ayrıştırıcı](./url_ayristirici/)
+    4. [IP Adresi Kontrolcüsü](./ip_adresi_kontrolcusu/)
+2. Kısım
+    1. [Şifre Kontrolcüsü](./sifre_kontrolcusu/)
+    2. [Sayı Tahmin Oyunu](./sayi_tahmin_oyunu/)
+    3. [Öğrenci Notları](./ogrenci_notlari/)
+    4. [Log Dosyası Analizi](./log_dosyasi_analizi/)
 
 Tüm projeler hem C hem de Python varyantını içeriyor.
 
