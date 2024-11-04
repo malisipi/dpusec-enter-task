@@ -35,7 +35,7 @@ int main(){
     ){
         herkese_acik = false;
     };
-    char* sonuc = "IPv4 adresi kişiseldir";
+    char* sonuc = "IPv4 adresi kişiseldir.";
     if(herkese_acik){
         sonuc = "IPv4 adresi herkese açıktır.";
     };
