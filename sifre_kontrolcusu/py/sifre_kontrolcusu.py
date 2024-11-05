@@ -1,5 +1,5 @@
 def şifre_sızdırılmış_mı(dosya_konumu:str, şifre:str) -> bool:
-    dosya = open(dosya_konumu, "r");
+    dosya:_io.TextIOWrapper = open(dosya_konumu, "r");
     yeni_satır:str = dosya.readline();
     while yeni_satır != "":
         yeni_satır = yeni_satır.split("\n")[0]; # Yeni satır karakterinden kurtulma vakti
