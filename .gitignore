@@ -5,3 +5,5 @@
 *.obj
 *.dll
 *.so
+*.db
+__pycache__
